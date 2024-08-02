@@ -169,8 +169,8 @@ def mobilenetv4_conv_small(**kwargs):
         ('conv_bn', 3, 2, 32),
         ('conv_bn', 1, 1, 32),
         # 28px
-        ('conv_bn', 96, 3, 2),
-        ('conv_bn', 64, 1, 1),
+        ('conv_bn', 3, 2, 96),
+        ('conv_bn', 1, 1, 64),
         # 14px
         ('uib', 5, 5, 2, 96, 3.0),  # ExtraDW
         ('uib', 0, 3, 1, 96, 2.0),  # IB
